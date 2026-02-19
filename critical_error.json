@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-02-19T03:32:08+03:00",
+  "title": "SESSION RECOVERY FAILED",
+  "details": "download failed: SESSION_ID is empty in config",
+  "suggestions": "1. Go to https://i-tct.com/pair\n2. Update SESSION_ID in .env\n3. Restart bot."
+}

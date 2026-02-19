@@ -23,3 +23,6 @@ LOCK_SYSTEM:
    SHOW_TRIGGER_IN_REASON: true
    DELETE_WARN_AFTER: 3
 
+#dashboard:
+#  user: admin
+#  password: tct-99
