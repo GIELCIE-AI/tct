@@ -1,8 +1,7 @@
-# Dockerfile
 FROM debian:bookworm-slim
 
 RUN apt-get update \
- && apt-get install -y --no-install-recommends ca-certificates curl \
+ && apt-get install -y --no-install-recommends ca-certificates curl ffmpeg \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
@@ -15,4 +14,3 @@ RUN chmod +x /entrypoint.sh \
  && chmod -R 755 /data || true
 
 ENTRYPOINT ["/entrypoint.sh"]
-
