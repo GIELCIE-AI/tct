@@ -1,6 +1,6 @@
 # TCT 
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue?style=for-the-badge&logo=telegram)](https://t.me/TheCarlTech)
-![GitHub version (latest)](https://img.shields.io/github/v/release/i-tct/tct?label=version&style=for-the-badge)
+[![GitHub version (latest)](https://img.shields.io/github/v/release/i-tct/tct?label=version&style=for-the-badge)](https://github.com/i-tct/tct/releases/latest)
 
 > *A Fast WA Bot Built with Go.* 
   *(Go Edition)*
