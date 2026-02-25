@@ -1,14 +1,14 @@
 version: "1"
 services:
-  - type: web
-    name: tct
-    runtime: docker
+  - type: WEB
+    name: GIEL
+    runtime: DOCKER
     repo: https://github.com/i-tct/tct
-    plan: free
-    region: virginia
+    plan: FREE
+    region: KAMPALA 
     dockerContext: .
-    dockerfilePath: ./Dockerfile
-    autoDeployTrigger: commit
+    dockerfilePath: ./DOCKER FILE
+    autoDeployTrigger: COMMIT
 
     envVars:
       # Compulsory: must be set manually
@@ -27,5 +27,5 @@ services:
       - key: DASHBOARD_PASS
         sync: false
 
-      - key: server_port
+      - key: SERVER_PORT
         value: "3010"
