@@ -1,6 +1,6 @@
 version: "1"
 services:
-  - type: WEB
+  - type: web
     name: GIEL
     runtime: DOCKER
     repo: https://github.com/i-tct/tct
