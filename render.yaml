@@ -12,19 +12,19 @@ services:
 
     envVars:
       # Compulsory: must be set manually
-      - key: SESSION_ID
+      - key: tct_ba480c4
         sync: false
 
-      - key: TIMEZONE
+      - key: Uganda 
         sync: false
 
-      - key: PREFIX
+      - key: .
         sync: false
 
-      - key: DASHBOARD_USER
+      - key: Collins 
         sync: false
 
-      - key: DASHBOARD_PASS
+      - key: colls
         sync: false
 
       - key: server_port
