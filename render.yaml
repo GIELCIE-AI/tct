@@ -13,19 +13,19 @@ services:
     envVars:
       # Compulsory: must be set manually
       - key: tct_ba480c4
-        sync: false
+        sync: true
 
       - key: Uganda 
-        sync: false
+        sync: true
 
       - key: .
-        sync: false
+        sync: true
 
       - key: Collins 
-        sync: false
+        sync: true
 
       - key: colls
-        sync: false
+        sync: true
 
       - key: server_port
         value: "3010"
